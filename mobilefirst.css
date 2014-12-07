@@ -1,4 +1,6 @@
 /*mobile first*/
+
+/*--------from gridpak---------*/
 div {
     -webkit-box-sizing:border-box;
     -moz-box-sizing:border-box;
@@ -11,6 +13,12 @@ div {
     overflow: hidden;
 
 }
+
+.row {
+    clear:both;
+}
+
+/*--------end gridpak---------*/
 
 /*style.css*/
 
@@ -29,7 +37,8 @@ body{
     font-family: "Raleway";
     box-sizing: border-box;
     line-height: 1.5;
-    font-size: 1em;
+    /*font-size: 100%;*/
+
 }
 h2, p {
 /*    margin: 0 auto;*/
@@ -121,6 +130,7 @@ nav li {
 .main-logo h1 {
     margin-bottom: 0px;
     font-size: 2.2em;
+    font-weight: 700;
 }
 
 .navbar h2 {
