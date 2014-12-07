@@ -1,5 +1,16 @@
 /*mobile first*/
+div {
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+.container {
+    width: 90%;
+    max-width: 1120px;
+    margin: auto;
+    overflow: hidden;
 
+}
 
 /*style.css*/
 
