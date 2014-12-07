@@ -15,6 +15,7 @@
     <![endif]-->
 
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/mobilefirst.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
@@ -24,19 +25,28 @@
   <body>
     <div class="wrapper-masthead">
       <div class="container">
-        <header class="masthead clearfix">
-          <!--<a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>-->
-          
-          <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
-          </div>
-          
+        header class="masthead clearfix">
+        <div class="navbar container">
           <nav>
-            <a href="{{ site.baseurl }}/">Blog</a>
-            <a href="{{ site.baseurl }}/about">About</a>
+            <a href="{{ site.baseurl }}/" class="main-logo"><img src="{{ site.avatar }}" /></a>
+            
+            <div class="site-info">
+              <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+              <p class="site-description">{{ site.description }}</p>
+            </div>
+          
+            <ul>
+              <li><a href="{{ site.baseurl }}/">Portfolio</a></li>
+            <li><a href="{{ site.baseurl }}/about">About</a></li
+            <li><a href="{{ site.baseurl }}/">Contact</a></li>
+            <li><a href="{{ site.baseurl }}/about">Blog</a></li>
+            
+            
+            </ul>
           </nav>
-        </header>
+        
+        </div>
+      </header>
       </div>
     </div>
 
