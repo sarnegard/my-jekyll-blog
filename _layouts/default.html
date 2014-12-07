@@ -14,9 +14,11 @@
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-   <!--  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" /> -->
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css">
     <link href='http://fonts.googleapis.com/css?family=Oswald:400|Raleway:400,700' rel='stylesheet'>
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://saraharnegard.com/css/icomoon.css">
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/mobilefirst.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
@@ -30,7 +32,9 @@
         <div class="navbar container">
           <nav class="row">
             <div class="main-logo">
-              <a href="{{ site.baseurl }}/" class="main-logo"><h1 class="site-name">{{ site.name }}</h1></a>
+              <a href="{{ site.baseurl }}/" class="main-logo">
+                <h1 class="site-name">{{ site.name }}</h1>
+              </a>
               <p class="site-description">{{ site.description }}</p>
             </div>
             <!-- <div class="site-info">
@@ -61,7 +65,7 @@
       
         <footer class="footer">
           <div class="container">
-          {% include svg-icons.html %}
+          <!-- {% include svg-icons.html %} -->
           
            
               <ul>
