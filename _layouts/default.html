@@ -28,12 +28,13 @@
         <header class="masthead clearfix">
         <div class="navbar container">
           <nav>
-            <a href="{{ site.baseurl }}/" class="main-logo"><img src="{{ site.avatar }}" /></a>
+            <a href="{{ site.baseurl }}/" class="main-logo"><h1 class="site-name"></h1></a>
+            <p class="site-description">{{ site.description }}</p>
             
-            <div class="site-info">
+            <!-- <div class="site-info">
               <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
               <p class="site-description">{{ site.description }}</p>
-            </div>
+            </div> -->
           
             <ul>
               <li><a href="{{ site.baseurl }}/">Portfolio</a></li>
@@ -55,8 +56,9 @@
     </div>
 
     <div class="wrapper-footer">
-      <div class="container">
+      
         <footer class="footer">
+          <div class="container">
           {% include svg-icons.html %}
           
            
@@ -73,8 +75,9 @@
                   Grid system was generated with <a href="http://gridpak.com/">Gridpak.</a> Icons from <a href="http://getbootstrap.com/components/">Bootstrap Glypicons</a> and <a href="https://icomoon.io/">Icomoon</a>. I'm also using the <a href="http://getbootstrap.com/javascript/#carousel">Bootstrap Carousel Plugin</a> and typefaces served by <a href="https://www.google.com/fonts">Google Fonts</a>.
                 </p>
             </div>
-        </footer>
-      </div>
+        </div>
+      </footer>
+      
     </div>
 
     {% include analytics.html %}
